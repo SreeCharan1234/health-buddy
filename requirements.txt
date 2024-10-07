@@ -16,7 +16,6 @@ streamlit-webrtc
 seaborn
 streamlit_shadcn_ui
 PyPDF2
-opencv
 deepface
 Django
 Pillow
