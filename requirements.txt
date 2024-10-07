@@ -2,7 +2,7 @@ SpeechRecognition
 streamlit
 streamlit-ace
 streamlit-extras
-keras==2.1.5
+keras
 pdf2image
 gtts
 pillow
