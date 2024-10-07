@@ -15,4 +15,4 @@ streamlit-webrtc
 seaborn
 streamlit_shadcn_ui
 PyPDF2
-opencv-python
+opencv==3.1
