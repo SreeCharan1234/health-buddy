@@ -1,0 +1,14 @@
+import streamlit as st
+import streamlit.components.v1 as components
+
+# Title
+st.title("Website Embed in Streamlit")
+
+# Embedding a website using an iframe
+website_url = "https://human.biodigital.com/viewer/?id=5HPv&ui-anatomy-descriptions=true&ui-anatomy-pronunciations=true&ui-anatomy-labels=true&ui-audio=true&ui-chapter-list=false&ui-fullscreen=true&ui-help=true&ui-info=true&ui-label-list=true&ui-layers=true&ui-loader=circle&ui-media-controls=full&ui-menu=true&ui-nav=true&ui-search=true&ui-tools=true&ui-tutorial=false&ui-undo=true&ui-whiteboard=true&initial.none=true&disable-scroll=false&dk=edac91d2443ff104ab74174b3047b00937a21960&paid=o_25ed890c"  # Replace with your website URL
+iframe_code = f"""
+    <iframe src="{website_url}" width="800" height="600" frameborder="0"></iframe>
+    """
+
+# Display the iframe in Streamlit
+components.html(iframe_code, height=600)
