@@ -22,5 +22,5 @@ Pillow
 PyPDF2
 deepface
 mediapipe
-opencv==3.1
+opencv-python-headless
 googletrans
