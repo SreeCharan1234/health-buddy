@@ -5,8 +5,6 @@ from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
 import re
 from datetime import date
 import PIL.Image
-from cvzone.HandTrackingModule import HandDetector
-from cvzone.ClassificationModule import Classifier
 from PIL import Image
 from gtts import gTTS
 from bs4 import BeautifulSoup
