@@ -22,3 +22,4 @@ Pillow
 PyPDF2
 deepface
 mediapipe
+googletrans
