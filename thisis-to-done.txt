@@ -1,0 +1,10 @@
+1 Dashbord :- 
+	i) live camera open his -stating time,sitting-time, add some more thing whearter of today 
+	ii) use api-huugging face api (FACE RECOGNISATION SHOULD BE ADD IN IT) 
+	iii) add streamlit log on the know your tablet
+	iv)chat bot make it persanalisied 
+
+2 deases perdiction :- 
+	USING 
+
+3 ADD PHYSICAL EXE

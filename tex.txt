@@ -1,0 +1,47 @@
+
+"""# Add buttons to each column 
+    with col1:
+        if st.button("Button 1"):
+            a=True
+            
+    with col2:
+        if st.button("Button 2"):
+            st.write("Button 2 clicked")
+
+    with col3:
+        if st.button("Button 3"):
+            st.write("Button 3 clicked")
+
+    with col4:
+        if st.button("Button 4"):
+            d=True
+            a=False
+            
+    if a==True:
+        with st.container(border=True):  
+                start_webcam()
+                uploaded_file=st.file_uploader("Upload your study Material (PDF)",type=["pdf"])    
+                uploaded_photo = st.file_uploader("Upload your photo (Image)", type=["jpg", "jpeg", "png"])
+                if uploaded_file:
+                    if uploaded_file is not None:
+                        st.write("PDF Uploaded Successfully")
+                        pdf_content=input_pdf_setup(uploaded_file)
+
+                        role="You are a highly skilled AI trained Report analaysier a Proper Report  anaylsier for peopole of india. You are a professional and your Report annalysis should be constructive and helpful."
+                        output=The out-put formate should me like this :-   
+                        ****Part 1 :- Explain  All about the report what all are the curitial things in that****      
+                        ****Part 2 :- Tell some simple home redmes or mediciens or solutions and some exersise that can help to solve the the patent/'s problem****
+                        ****Part 3 :-By seeing that reaport make a proper  diet plan that they should follow for the next 10 days ****
+                        *** part 4:- Also refer some best doctores related to the 
+                        
+                        s=get_gemini_response1(role,pdf_content,"explain all the parts"+str(output))
+                        st.write(s)
+    if d==True:
+"""
+from audio_recorder_streamlit import audio_recorder
+def transcribe_audio(client,audio_part):
+    with open(audio_part,"rb") as audio_file:
+    
+        transcript• client. audio. transcriptions. create(model="whisper-1",file=audio_file)
+        return transcript.text
+audio_audio=audio_recorder()
