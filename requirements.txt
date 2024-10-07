@@ -2,6 +2,7 @@ SpeechRecognition
 streamlit
 streamlit-ace
 streamlit-extras
+keras==2.1.5
 pdf2image
 gtts
 pillow
@@ -20,8 +21,6 @@ deepface
 Django
 Pillow
 PyPDF2
-opencv-python
 deepface
 speech_recognition
-cvzone
 mediapipe
