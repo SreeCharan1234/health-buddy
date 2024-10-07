@@ -16,3 +16,4 @@ seaborn
 streamlit_shadcn_ui
 PyPDF2
 opencv==3.1
+deepface
