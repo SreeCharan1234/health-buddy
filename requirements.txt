@@ -17,3 +17,11 @@ streamlit_shadcn_ui
 PyPDF2
 opencv
 deepface
+Django
+Pillow
+PyPDF2
+opencv-python
+deepface
+speech_recognition
+cvzone
+mediapipe
