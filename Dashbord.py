@@ -13,7 +13,6 @@ import streamlit.components.v1 as components
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import calplot
 import plotly.express as px
 from pathlib import Path
 from streamlit_ace import st_ace
