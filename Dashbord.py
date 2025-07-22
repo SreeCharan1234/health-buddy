@@ -244,7 +244,7 @@ if selected == "Dashbord":
     import random
 
 
-    user_name = ":rainbow[Rehan]"
+    user_name = ":rainbow[K Sree Charan]"
     age = 20
     weight =  60 # in kg
     height = 165  # in cm
